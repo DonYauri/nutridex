@@ -1,0 +1,26 @@
+name: nutridex
+description: AI calorie tracker - photo to nutrition via Gemini Vision, stored in an encrypted local database.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2
+  google_generative_ai: ^0.4.6
+  sqflite_sqlcipher: ^3.1.0
+  flutter_secure_storage: ^9.2.2
+  crypto: ^3.0.5
+  image_picker: ^1.1.2
+  path: ^1.9.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
